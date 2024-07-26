@@ -1,0 +1,19 @@
+@import "./main.scss";
+
+#testimonial {
+    .large-container{
+        .row{
+            .col-4{
+                .testimonial-text{
+                    display: flex;
+                    justify-content: center;
+                    background-color: aqua;
+                    padding: 2rem;
+                    align-items: center;
+                    
+                }
+            }
+    }
+
+    }
+}

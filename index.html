@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sheyn.art</title>
-    <link rel="stylesheet" href="assets/image/" />
+    <link rel="stylesheet" href="./scss/main.css" />
     <link rel="stylesheet" href="assets/main.css" />
     <link rel="stylesheet" href="assets/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -12,6 +12,13 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
   </head>
   <body>
@@ -21,7 +28,7 @@
         <p>Free shipping in Europe - free returns in the EU.</p>
       </div>
       <div class="small-container header">
-        <div class="header-wrapper flex">
+        <div class="header-wrapper row">
           <div class="header-logo col-1">
             <img
               src="https://sheyn.at/wp-content/uploads/2020/06/Sheyn.-Dark.png"
@@ -48,7 +55,7 @@
 
     <!-- store-about section start -->
     <section id="store-about">
-      <div class="store-about flex">
+      <div class="store-about row">
         <div class="store-about-image col-6">
           <img
             src="https://cdn.homecrux.com/wp-content/uploads/2024/06/Blend-vase-collection-featured-2-1200x675.jpg"
@@ -79,11 +86,11 @@
     <!-- product section start -->
     <section id="product">
       <div class="large-container">
-        <div class="cards flex">
+        <div class="cards row">
           <div class="product-card col-2">
             <div class="product-card-img">
               <img
-                src="./assets/image/Zayl-159g-Vase-Cool-Grey.png"
+                src="./scss/image/Zayl-159g-Vase-Cool-Grey.png"
                 alt="Zayl 159g Vase"
               />
             </div>
@@ -95,7 +102,7 @@
           <div class="product-card col-2">
             <div class="product-card-img">
               <img
-                src="./assets/image/Bloz-138g-Vase-Charcoal-1024x1024.png"
+                src="./scss/image/Bloz-138g-Vase-Charcoal-1024x1024.png"
                 alt="Zayl 159g Vase"
               />
             </div>
@@ -107,7 +114,7 @@
           <div class="product-card col-2">
             <div class="product-card-img">
               <img
-                src="./assets/image/Bloz-155g-Vase-Mosaic-Blue-1024x1024.png"
+                src="./scss/image/Bloz-155g-Vase-Mosaic-Blue-1024x1024.png"
                 width="100%"
                 alt="Zayl 159g Vase"
               />
@@ -120,7 +127,7 @@
           <div class="product-card col-2">
             <div class="product-card-img">
               <img
-                src="./assets/image/Bloz-293g-Vase-Faded-Denim-1024x1024.png"
+                src="./scss/image/Bloz-293g-Vase-Faded-Denim-1024x1024.png"
                 width="100%"
                 alt="Zayl 159g Vase"
               />
@@ -133,7 +140,7 @@
           <div class="product-card col-2">
             <div class="product-card-img">
               <img
-                src="./assets/image/Bloz-350g-Vase-College-White-1024x1024.png"
+                src="./scss/image/Bloz-350g-Vase-College-White-1024x1024.png"
                 width="100%"
                 alt="Zayl 159g Vase"
               />
@@ -150,14 +157,10 @@
 
     <!-- product-about section start -->
     <section id="product-about">
-      <div class="product-about flex">
+      <div class="product-about row">
         <div class="odd-card col-4">
           <div class="product-about-card">
-            <img
-              src="./assets/image/images.jpeg"
-              alt="zayl vase"
-              width="100%"
-            />
+            <img src="./scss/image/images.jpeg" alt="zayl vase" width="100%" />
           </div>
           <div class="image-about">
             <p>Vases</p>
@@ -176,11 +179,7 @@
         </div>
         <div class="odd-card col-4">
           <div class="product-about-card">
-            <img
-              src="./assets/image/images.jpeg"
-              alt="zayl vase"
-              width="100%"
-            />
+            <img src="./scss/image/images.jpeg" alt="zayl vase" width="100%" />
           </div>
           <div class="image-about">
             <p>Vases</p>
@@ -201,5 +200,368 @@
       </div>
     </section>
     <!-- product-about section end -->
+
+    <!-- featured section start -->
+    <section id="featured">
+      <div class="large-container">
+        <div class="row">
+          <div class="featured-paragraph">
+            <h2>
+              Featured in.<span
+                >We’re excited the world’s biggest design magazines love our
+                creations.</span
+              >
+            </h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- featured section end -->
+
+    <!-- featured-content section start -->
+    <section id="featured-content">
+      <div class="large-container">
+        <div class="row">
+          <div class="col-2 col-3">
+            <img
+              src="https://www.ad-magazin.de/verso/static/architectural-digest/assets/logo-ad-int.svg"
+              alt="marka-AD"
+            />
+          </div>
+          <div class="col-2 col-3">
+            <img
+              src="https://static.dezeen.com/uploads/2020/10/Showroom-logo.png"
+              alt="marka-de-zeen"
+            />
+          </div>
+          <div class="col-2 col-3">
+            <img
+              src="https://img.marieclairekorea.com//2023/12/mck_657e4766bda67.png"
+              alt="marka-de-zeen"
+            />
+          </div>
+          <div class="col-2 col-3">
+            <img
+              src="https://sheyn.at/wp-content/uploads/2021/12/ELLE.png"
+              alt="marka-de-zeen"
+            />
+          </div>
+          <div class="col-2 col-3">
+            <img
+              src="https://sheyn.at/wp-content/uploads/2023/06/COSMOPOLITAN-Logo-1-1024x195.png"
+              alt="marka-de-zeen"
+            />
+          </div>
+          <div class="col-2 col-3">
+            <img
+              src="https://sheyn.at/wp-content/uploads/2023/05/AW-Web.png"
+              alt="marka-de-zeen"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- featured-content section start -->
+
+    <!-- introducing section start -->
+    <section id="introducing">
+      <div class="introducing row">
+        <div class="introducing-left col-6">
+          <img src="./scss/image/Screenshot 2024-07-26 093053.png" alt="vase" />
+        </div>
+        <div class="introducing-right col-6">
+          <div class="introducing-title">
+            <h2>
+              Introducing the Collection.
+              <span>
+                We believe that colour makes every little thing unique.</span
+              >
+            </h2>
+          </div>
+          <div class="introducing-paragraph">
+            <p>
+              3D printed using a unique material, the collection creates a
+              dramatic colour transition, emphasising the movement trapped in
+              the designs.
+            </p>
+          </div>
+          <div class="store-btn">
+            <button>shop blend</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- introducing section end -->
+
+    <!-- product section start -->
+    <section id="product">
+      <div class="large-container">
+        <div class="cards row">
+          <div class="product-card col-2">
+            <div class="product-card-img">
+              <img
+                src="./scss/image/Screenshot 2024-07-26 102212.png"
+                alt="Zayl 159g Vase"
+              />
+            </div>
+            <div class="product-name">
+              <p>Zayl 159g Vase</p>
+              <span>300$</span>
+            </div>
+          </div>
+          <div class="product-card col-2">
+            <div class="product-card-img">
+              <img
+                src="./scss/image/Screenshot 2024-07-26 102301.png"
+                alt="Zayl 159g Vase"
+              />
+            </div>
+            <div class="product-name">
+              <p>Zayl 159g Vase</p>
+              <span>300$</span>
+            </div>
+          </div>
+          <div class="product-card col-2">
+            <div class="product-card-img">
+              <img
+                src="./scss/image/Screenshot 2024-07-26 102347.png"
+                width="100%"
+                alt="Zayl 159g Vase"
+              />
+            </div>
+            <div class="product-name">
+              <p>Zayl 159g Vase</p>
+              <span>300$</span>
+            </div>
+          </div>
+          <div class="product-card col-2">
+            <div class="product-card-img">
+              <img
+                src="./scss/image/Screenshot 2024-07-26 102634.png"
+                width="100%"
+                alt="Zayl 159g Vase"
+              />
+            </div>
+            <div class="product-name">
+              <p>Zayl 159g Vase</p>
+              <span>300$</span>
+            </div>
+          </div>
+          <div class="product-card col-2">
+            <div class="product-card-img">
+              <img
+                src="./scss/image/Screenshot 2024-07-26 102728.png"
+                width="100%"
+                alt="Zayl 159g Vase"
+              />
+            </div>
+            <div class="product-name">
+              <p>Zayl 159g Vase</p>
+              <span>300$</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- product section end -->
+
+    <!-- introducing section start -->
+    <section id="introducing">
+      <div class="introducing row">
+        <div class="introducing-right col-6">
+          <div class="introducing-title">
+            <h2>
+              Sheyn Lighting.<span
+                >Now you can look forward to a bright future — check out our
+                lamp designs.​
+              </span>
+            </h2>
+          </div>
+          <div class="introducing-paragraph">
+            <p>
+              A collection of lamps designs that enhance our 3D printed designs,
+              enabling their forms and textures to literally shine in a
+              completely new light.
+            </p>
+          </div>
+          <div class="store-btn">
+            <button>shop blend</button>
+          </div>
+        </div>
+        <div class="introducing-left col-6">
+          <img src="./scss/image/Screenshot 2024-07-26 103608.png" alt="vase" />
+        </div>
+      </div>
+    </section>
+    <!-- introducing section end -->
+
+    <!-- product section start -->
+    <section id="product">
+      <div class="large-container">
+        <div class="cards row">
+          <div class="product-card col-2">
+            <div class="product-card-img">
+              <img
+                src="./scss/image/Screenshot 2024-07-26 104816.png"
+                alt="Zayl 159g Vase"
+              />
+            </div>
+            <div class="product-name">
+              <p>Zayl 159g Vase</p>
+              <span>300$</span>
+            </div>
+          </div>
+          <div class="product-card col-2">
+            <div class="product-card-img">
+              <img
+                src="./scss/image/Screenshot 2024-07-26 104816.png"
+                alt="Zayl 159g Vase"
+              />
+            </div>
+            <div class="product-name">
+              <p>Zayl 159g Vase</p>
+              <span>300$</span>
+            </div>
+          </div>
+          <div class="product-card col-2">
+            <div class="product-card-img">
+              <img
+                src="./scss/image/Screenshot 2024-07-26 104816.png"
+                width="100%"
+                alt="Zayl 159g Vase"
+              />
+            </div>
+            <div class="product-name">
+              <p>Zayl 159g Vase</p>
+              <span>300$</span>
+            </div>
+          </div>
+          <div class="product-card col-2">
+            <div class="product-card-img">
+              <img
+                src="./scss/image/Screenshot 2024-07-26 104816.png"
+                width="100%"
+                alt="Zayl 159g Vase"
+              />
+            </div>
+            <div class="product-name">
+              <p>Zayl 159g Vase</p>
+              <span>300$</span>
+            </div>
+          </div>
+          <div class="product-card col-2">
+            <div class="product-card-img">
+              <img
+                src="./scss/image/Screenshot 2024-07-26 104714.png"
+                width="100%"
+                alt="Zayl 159g Vase"
+              />
+            </div>
+            <div class="product-name">
+              <p>Zayl 159g Vase</p>
+              <span>300$</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- product section end -->
+
+    <section id="featured">
+      <div class="large-container">
+        <div class="row">
+          <div class="featured-paragraph">
+            <h2>
+              Tens across the board.
+              <span>You can totally blame us for every 5 star review.</span>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- featured section end -->
+
+    <!-- testimonial section start -->
+    <section id="testimonial">
+      <div class="large-container">
+        <div class="row">
+          <div class="col-4">
+            <div class="testimonial-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni,
+              nobis ad nam quo odio illum perferendis harum nulla in quidem.
+            </div>
+            <div class="testimonial-user">
+              <p>Afsana</p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="testimonial-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni,
+              nobis ad nam quo odio illum perferendis harum nulla in quidem.
+            </div>
+            <div class="testimonial-user">
+              <p>Afsana</p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="testimonial-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni,
+              nobis ad nam quo odio illum perferendis harum nulla in quidem.
+            </div>
+            <div class="testimonial-user">
+              <p>Afsana</p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="testimonial-text">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni,
+                nobis ad nam quo odio illum perferendis harum nulla in quidem.
+              </p>
+            </div>
+            <div class="testimonial-user">
+              <p>Afsana</p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonial section end -->
+
+    <!-- featured section start -->
+    <section id="featured">
+      <div class="large-container">
+        <div class="row">
+          <div class="featured-paragraph">
+            <h2>Sheyn. <span>Follow us on Instagram</span></h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- featured section end -->
+
+    <!-- instagram section start -->
+    <section id="instagram"></section>
+    <!-- instagram section end -->
   </body>
 </html>

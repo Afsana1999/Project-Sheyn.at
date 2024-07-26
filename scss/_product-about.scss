@@ -1,0 +1,82 @@
+
+/* product-about section start */
+
+#product-about .odd-card {
+    position: relative;
+  }
+  #product-about .even-card {
+    position: relative;
+    color: white;
+  }
+  #product-about .image-about {
+    position: absolute;
+    top: 3rem;
+    left: 2rem;
+  }
+  #product-about .image-about > p {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  #product-about .product-about-card > img {
+    height: 25rem;
+  }
+  
+  #product-about .product-about-card > img {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media (max-width: 1024px) {
+    #product-about .product-about {
+      width: 100%;
+    }
+    .odd-card {
+      margin: 0.5rem;
+    }
+    .even-card {
+      margin: 0.5rem;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    #product-about .product-about {
+      width: 100%;
+      flex-wrap: wrap;
+    }
+    .odd-card {
+      width: 49%;
+    }
+    .even-card {
+      width: 49%;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    #product-about .product-about {
+      width: 100%;
+      flex-wrap: wrap;
+    }
+    .odd-card {
+      width: 48%;
+    }
+    .even-card {
+      width: 48%;
+    }
+  }
+  @media (max-width: 350px) {
+    #product-about .product-about {
+
+      width: 100%;
+      flex-wrap: wrap;
+    }
+    .odd-card {
+      width: 47%;
+    }
+    .even-card {
+      width: 47%;
+    }
+  }
+  

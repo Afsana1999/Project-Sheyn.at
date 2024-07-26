@@ -1,0 +1,18 @@
+@import "./variables.scss";
+
+#featured {
+    .large-container{
+        .row{         
+            .featured-paragraph{
+                h2{
+                    font-size: $fontSize;
+                }
+                span{
+                    font-size: $fontSize;
+                    flex-wrap: wrap;
+                    font-weight: 300;
+                }   
+              }
+            }
+        }
+    }

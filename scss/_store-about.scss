@@ -1,0 +1,45 @@
+
+/*  start #store-about section */
+
+#store-about .paragraph > h2 {
+    font-size: 2.8rem;
+  }
+  
+  #store-about .paragraph {
+    padding-bottom: 3rem;
+    flex-wrap: wrap;
+  }
+  #store-about .paragraph > p {
+    font-size: 2.8rem;
+    align-content: end;
+    padding-bottom: 0.5rem;
+  }
+  
+  #store-about .store-about-wrapper {
+    padding: 6rem;
+    color: white;
+  }
+  
+  #store-about .store-paragraph > p {
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+  }
+  
+  #store-about .store-about {
+    background: black;
+  }
+  
+  @media (max-width: 767px) {
+    #store-about .store-about {
+      width: 100%;
+      display: block;
+    }
+    .store-about-image {
+      width: 100%;
+    }
+    .store-about-wrapper {
+      width: 100%;
+      flex-wrap: nowrap;
+    }
+  }
+  

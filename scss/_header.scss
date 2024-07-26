@@ -1,0 +1,40 @@
+/* header start */
+.notifilication-bar {
+    background: #e4fb5f;
+    padding: 0.7rem;
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  .header-logo > img {
+    width: 6rem;
+    height: auto;
+  }
+  
+  .header-list > ul > li {
+    list-style: none;
+    font-size: 1rem;
+    display: inline-block;
+    padding-right: 3rem;
+  }
+  .header-list {
+    padding-left: 2rem;
+  }
+  .header-wrapper {
+    align-items: center;
+    padding: 2rem;
+  }
+  .header-basket {
+    text-align: right;
+  }
+  
+  @media (max-width: 1000px) {
+    .header-list {
+      display: none;
+    }
+    .header-basket {
+      position: absolute;
+      right: 2rem;
+    }
+  }
+  

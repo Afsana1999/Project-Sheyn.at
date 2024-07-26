@@ -1,0 +1,10 @@
+@import "./_variables";
+@import "./main.scss";
+
+#introducing {
+    .introducing{
+        .introducing-right{
+            @include leftRight()
+        }
+    }
+}
